@@ -28,7 +28,7 @@ Confidentiality: The file content is unreadable for anyone without the key.
 * **Encrypt Data:** Transforms plain text files into unreadable ciphertext.
 
 * **Decrypt Data:** Restores original files using the matching key.
-* * **Error Handling**: It finds the missing keys or files and avoids crashes.
+* **Error Handling**: It finds the missing keys or files and avoids crashes.
 ---
 ## Technologies Used 
 

@@ -30,8 +30,8 @@ Confidentiality: The file content is unreadable for anyone without the key.
 * **Decrypt Data:** Restores original files using the matching key.
 * * **Error Handling**: It finds the missing keys or files and avoids crashes.
 ---
-### Technologies Used 
+## Technologies Used 
 
 * **Language:** Python 3.11.3
-* * **Library:** `cryptography`
+* **Library:** `cryptography`
 ---

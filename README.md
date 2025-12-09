@@ -20,9 +20,12 @@ I used **Fernet**, a system given by the library `cryptography`. Fernet makes su
 
 3. CIA Triad (Confidentiality & Integrity)
 
-**Confidentiality:** The file content is unreadable for anyone without the key.
-**Integrity:** Fernet includes a signing token. This means that, in case a hacker tries to alter the encrypted file-for example, by flipping bits-the decryption will fail since the signature won't match.
+*Confidentiality:* The file content is unreadable for anyone without the key.
+*Integrity:* Fernet includes a signing token. This means that, in case a hacker tries to alter the encrypted file-for example, by flipping bits-the decryption will fail since the signature won't match.
 ---
+
+
+
 Features
 
 * **Key Generation:** Creates by default a secure, random 256-bit key (`secret.key`).

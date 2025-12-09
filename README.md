@@ -27,4 +27,9 @@ Features
 * **Key Generation:** Creates by default a secure, random 256-bit key (`secret.key`).
 * **Encrypt Data:** Transforms plain text files into unreadable ciphertext.
 
-* **Decrypt Data:** Restores original files using the matching key. * **Error Handling**: It finds the missing keys or files and avoids crashes. ## ????️ Technologies Used * **Language:** Python 3.x * **Library:** `cryptography` ---
+* **Decrypt Data:** Restores original files using the matching key.
+* * **Error Handling**: It finds the missing keys or files and avoids crashes.
+
+## ????️ Technologies Used 
+* **Language:** Python 3.11.3
+* * **Library:** `cryptography` ---

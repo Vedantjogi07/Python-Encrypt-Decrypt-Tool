@@ -33,4 +33,5 @@ Confidentiality: The file content is unreadable for anyone without the key.
 ### Technologies Used 
 
 * **Language:** Python 3.11.3
-* * **Library:** `cryptography` ---
+* * **Library:** `cryptography`
+---

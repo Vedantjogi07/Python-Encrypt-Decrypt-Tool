@@ -1,8 +1,8 @@
-# 🔐 Python File Encryption & Decryption Tool
+# Python File Encryption & Decryption Tool
 
 A secure, command-line based file encryption tool built using Python and the `cryptography` library. This project implements **Symmetric Encryption** using the Fernet module to ensure data confidentiality and integrity.
 
-## 📖 Theoretical Concepts
+## Theoretical Concepts
 
 This project demonstrates several core cybersecurity concepts:
 
@@ -22,7 +22,7 @@ I utilized **Fernet**, a system provided by the `cryptography` library. Fernet g
 
 ---
 
-## 🚀 Features
+## Features
 * **Key Generation:** Automatically generates a secure, random 256-bit key (`secret.key`).
 * **Encrypt Data:** Converts plain text files into unreadable ciphertext.
 * **Decrypt Data:** Restores original files using the matching key.

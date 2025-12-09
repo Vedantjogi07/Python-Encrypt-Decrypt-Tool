@@ -11,6 +11,7 @@ This tool uses **Symmetric-key algorithms**, meaning the *same key* is used for 
 * Fast and efficient in handling a large amount of data.
 
 * **Cons:** Key distribution is critical - if you share the encrypted file, you need to securely share the key as well.
+  
 2. Fernet (The Implementation)
 I used **Fernet**, a system given by the library `cryptography`. Fernet makes sure that any message encrypted with it can neither be manipulated nor read without the key.
 
@@ -19,7 +20,7 @@ I used **Fernet**, a system given by the library `cryptography`. Fernet makes su
 
 3. CIA Triad (Confidentiality & Integrity)
 
-Confidentiality: The file content is unreadable for anyone without the key.
+* **Confidentiality:** The file content is unreadable for anyone without the key.
 * **Integrity:** Fernet includes a signing token. This means that, in case a hacker tries to alter the encrypted file-for example, by flipping bits-the decryption will fail since the signature won't match.
 ---
 ## Features

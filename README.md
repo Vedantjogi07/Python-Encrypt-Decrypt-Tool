@@ -22,14 +22,15 @@ I used **Fernet**, a system given by the library `cryptography`. Fernet makes su
 Confidentiality: The file content is unreadable for anyone without the key.
 * **Integrity:** Fernet includes a signing token. This means that, in case a hacker tries to alter the encrypted file-for example, by flipping bits-the decryption will fail since the signature won't match.
 ---
-Features
+## Features
 
 * **Key Generation:** Creates by default a secure, random 256-bit key (`secret.key`).
 * **Encrypt Data:** Transforms plain text files into unreadable ciphertext.
 
 * **Decrypt Data:** Restores original files using the matching key.
 * * **Error Handling**: It finds the missing keys or files and avoids crashes.
+---
+### Technologies Used 
 
-## ????️ Technologies Used 
 * **Language:** Python 3.11.3
 * * **Library:** `cryptography` ---
